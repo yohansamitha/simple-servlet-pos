@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Simple Servlet pos:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Simple_Servlet_pos_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Simple Servlet pos" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql:mysql-connector-java:8.0.19" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Simple Servlet pos/web/Web" />
+    </root>
+  </artifact>
+</component>
